@@ -1,0 +1,74 @@
+/* ROOT */
+:root {
+    --primary: #e43939;
+    --dark: #323232;
+}
+
+/* STYLES */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    overflow: hidden;
+    padding: 1rem 1.5rem;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container h1 {
+    text-align: left;
+    color: var(--primary);
+    margin: 40px 0px 0px;
+}
+
+.container h1 span {
+    color: var(--dark);
+}
+
+.form {
+    width: 400px;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    margin-bottom: 10px;
+}
+
+.form input {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid var(--dark);
+}
+
+.form a {
+    margin: 10px 0px 0px;
+    width: 9rem;
+    display: inline-block;
+    padding: 7px 14px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .5s ease;
+    box-shadow: 0px 2px 6px rgba(228, 57, 57, 0.1);
+    text-decoration: none;
+    text-align: center;
+}
+
+.form a:hover {
+    box-shadow: 0px 2px 6px rgba(228, 57, 57, 0.2);
+    transform: translateY(-4px);
+}
